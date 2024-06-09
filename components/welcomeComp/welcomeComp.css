@@ -1,0 +1,11 @@
+.welcome-comp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+	margin: auto;
+	height: 100vh;
+	box-sizing: border-box;
+}
+

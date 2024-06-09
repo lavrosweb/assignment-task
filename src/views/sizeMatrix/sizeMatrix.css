@@ -1,0 +1,21 @@
+.size-matrix-wapper {
+  width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  @media (max-width: 768px) {
+    width: 36rem;
+  }
+}
+
+.button_next {
+  font-size: var(--button-fs-sm);
+  padding: 3rem 5rem;
+  @media (max-width: 768px) {
+    padding: 2rem 4rem;
+    font-size: var(--button-fs-sm-mb);
+	max-width: 30rem;
+	margin: 0 auto;
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "matrix-games",
+  "version": "1.0.0",
+  "description": "decision matrix games",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --config eslint.config.mjs .",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavrosweb/matrix-games.git"
+  },
+  "author": "Yaroslav Shpakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lavrosweb/matrix-games/issues"
+  },
+  "homepage": "https://github.com/lavrosweb/matrix-games#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^9.4.0",
+    "globals": "^15.4.0",
+    "rollup": "^4.18.0",
+    "rollup-plugin-import-css": "^3.5.0"
+  },
+  "dependencies": {
+    "fraction.js": "^4.3.7",
+    "glpk.js": "^4.0.2",
+    "on-change": "^5.0.1",
+    "table": "^6.8.2"
+  }
+}

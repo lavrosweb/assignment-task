@@ -1,0 +1,62 @@
+.decision-table {
+  width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 10rem;
+  @media (max-width: 768px) {
+    width: 36rem;
+	margin-bottom: 8rem;
+  }
+}
+
+.table-wrapper,
+.plan,
+.cost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.table-decision-value {
+  font-size: var(--td-fs);
+  @media (max-width: 768px) {
+    font-size: var(--td-fs-mb);
+  }
+}
+
+.table-decision tr td {
+	width: 3.5rem;
+	height: 3.5rem;
+	text-align: center;
+	@media (max-width: 768px) {
+		width: 4rem;
+		height: 4rem;
+	  }
+}
+
+.plan p {
+	font-size: var(--plan-p-fs);
+	text-align: center;
+	@media (max-width: 768px) {
+		font-size: var(--plan-p-fs-mb);
+	  }
+}
+
+.cost {
+	font-size: var(--cost);
+	text-align: center;
+	@media (max-width: 768px) {
+		font-size: var(--cost-mb);
+	  }
+}
+
+.button_back {
+	padding: 2rem 6rem;
+	font-size: var(--button-back);
+}

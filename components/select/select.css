@@ -1,0 +1,34 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.select-container {
+  display: flex;
+  gap: 4rem;
+  @media (max-width: 768px) {
+    flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	text-align: center;
+  }
+}
+
+.select-item {
+  display: flex;
+  gap: 1rem;
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+label {
+  font-size: var(--label-fs);
+}
+
+select {
+  font-size: var(--select-fs);
+}
