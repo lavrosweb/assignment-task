@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lavrosweb/matrix-games.git"
+    "url": "git+https://github.com/lavrosweb/assignment-task.git"
   },
   "author": "Yaroslav Shpakov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lavrosweb/matrix-games/issues"
+    "url": "https://github.com/lavrosweb/assignment-task/issues"
   },
-  "homepage": "https://github.com/lavrosweb/matrix-games#readme",
+  "homepage": "https://github.com/lavrosweb/assignment-task#readme",
   "devDependencies": {
     "@eslint/js": "^9.4.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
